@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster+Two:ital,wght@1,700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.page {
+    display: flex;
+    width: 100%;
+  height: fit-content;
+
+
+}
+.text{
+  font-family: 'Irish Grover';
+  font-style: normal;
+font-weight: 400;
+  font-size: 1.8em;
+  width: fit-content;
+}
+
+.box_left {
+    background-color: #6D218E;
+    width: 50%;
+    text-align: center;
+    margin: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+}
+.image{
+    width: 100%;
+}
+
+img {
+    margin-left: 0%;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.box_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    width: 50%;
+    background-color: #ffff;
+}
+.box_right h3{
+  text-align: center;
+}
+ form{ 
+
+   
+
+}
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  background-color: #D9D9D9;
+  opacity: ;
+}
+
+.checkbox {
+    width: auto;
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  
+}
+    input.tickbox {
+        width: 20px;
+        height: 20px;
+    }
+.cb{
+    color: red;
+  cursor: pointer;
+}
+
+
+.btnn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  background: #F17D20;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+    align-content: center;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.icons{
+    text-align: center;
+    margin: 30px;
+}
+
+.paragraph{   
+    text-align: center;
+    margin: 30px;
+}
